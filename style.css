@@ -100,6 +100,28 @@ nav a:hover { color: var(--gold-400); }
   border-bottom: 1px solid var(--border-soft);
 }
 
+.hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 14px 0 6px;
+}
+
+.hero-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 4px;
+}
+
+.hero-brand-name {
+  font-weight: 900;
+  font-size: 1.4rem;
+  letter-spacing: 0.08em;
+  color: var(--gold-500);
+}
+
 .hero-sub {
   margin-top: 22px;
   max-width: 620px;
