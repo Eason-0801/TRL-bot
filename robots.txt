@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eason-0801.github.io/TRL-bot/sitemap.xml
