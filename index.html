@@ -10,6 +10,21 @@
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://eason-0801.github.io/TRL-bot/">
 
+<!-- 安全性設定：GitHub Pages 不能自訂 HTTP 標頭，這裡用 meta 版本的 CSP 盡量收緊 -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'none';
+  style-src 'self' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  img-src 'self' data:;
+  connect-src 'self';
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self';
+  upgrade-insecure-requests;
+">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
 <!-- Open Graph（Facebook、LINE、Discord 等分享預覽用）-->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://eason-0801.github.io/TRL-bot/">
