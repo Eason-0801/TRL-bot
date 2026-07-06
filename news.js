@@ -12,7 +12,7 @@
 
   function render(data) {
     if (updatedEl && data.updated_at) {
-      updatedEl.textContent = "最後更新：" + data.updated_at + "（每 3 天自動更新一次）";
+      updatedEl.textContent = "最後更新：" + data.updated_at;
     }
 
     if (!data.items || !data.items.length) {
@@ -26,9 +26,6 @@
           '<span class="news-date">' + escapeHtml(item.date || "") + '</span>' +
           '<h3 class="news-title">' + escapeHtml(item.title || "") + '</h3>' +
           '<p class="news-summary">' + escapeHtml(item.summary || "") + '</p>' +
-          '<a class="news-source" href="' + escapeHtml(item.url || "#") +
-            '" target="_blank" rel="noopener noreferrer">來源：' +
-            escapeHtml(item.source || "未知") + ' →</a>' +
         '</article>'
       );
     }).join("");
