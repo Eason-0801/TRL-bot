@@ -159,9 +159,25 @@ nav a:hover { color: var(--gold-400); }
 .btn-outline:hover { border-color: var(--gold-500); color: var(--gold-400); }
 
 /* About */
-.about, .services, .contact {
+.about, .services, .download, .contact {
   padding: 90px 0;
   border-bottom: 1px solid var(--border-soft);
+}
+
+.download-cta {
+  margin-top: 32px;
+}
+
+.btn-disabled {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  background: var(--navy-800);
+  color: var(--text-muted);
+  border: 1px solid var(--border-soft);
+  cursor: not-allowed;
 }
 
 .value-grid, .service-grid {
