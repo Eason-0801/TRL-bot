@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>付款方式 | TRL量化交易機器人 The Rich Life Bot</title>
+<meta name="description" content="TRL量化交易機器人付款頁面，支援 BSC（BEP-20）、ERC-20、TRC-20 網路，僅接受 USDT。">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://eason-0801.github.io/TRL-bot/payment.html">
+
+<!-- 安全性設定：GitHub Pages 不能自訂 HTTP 標頭，這裡用 meta 版本的 CSP 盡量收緊 -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self';
+  style-src 'self' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  img-src 'self' data:;
+  connect-src 'self';
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self';
+  upgrade-insecure-requests;
+">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">TRL</a>
+    <nav>
+      <a href="index.html#about">關於TRL</a>
+      <a href="index.html#services">服務項目</a>
+      <a href="index.html#download">下載TRL</a>
+      <a href="index.html#news">Web3新聞</a>
+      <a href="payment.html" class="nav-active">付款方式</a>
+      <a href="index.html#contact">聯絡我們</a>
+    </nav>
+  </div>
+</header>
+
+<section class="payment payment-page">
+  <div class="container">
+    <p class="eyebrow">付款方式</p>
+    <h2>選擇付款網路</h2>
+    <p class="section-lead">請選擇你要使用的轉帳網路，切換後會顯示對應的收款地址。</p>
+    <span class="usdt-badge">💰　僅收 USDT　Only USDT Accepted</span>
+
+    <div class="payment-card">
+      <label for="network-select" class="payment-label">收款網路 Network</label>
+      <select id="network-select" class="payment-select">
+        <option value="bsc">BSC（BEP-20）</option>
+        <option value="erc20">ERC-20（Ethereum）</option>
+        <option value="trc20">TRC-20（Tron）</option>
+      </select>
+
+      <div class="payment-address-row">
+        <span class="payment-label">收款地址 USDT</span>
+        <div class="payment-address-box">
+          <span id="wallet-address" class="payment-address"></span>
+          <button id="copy-address-btn" class="btn-copy" type="button">複製</button>
+        </div>
+        <p id="copy-status" class="payment-copy-status"></p>
+      </div>
+
+      <p class="payment-warning">⚠ 本收款地址僅接受 USDT，請勿轉入其他幣種（如 BTC、ETH、BNB 等），誤轉其他幣種恕無法尋回。</p>
+      <p class="payment-warning">⚠ 請務必確認選擇的網路與轉帳時使用的網路一致，網路選錯可能導致資產永久遺失，恕不負責。</p>
+    </div>
+
+    <a href="index.html" class="payment-back">← 返回首頁</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; 2026 TRL量化交易機器人 The Rich Life Bot. All rights reserved.</span>
+    <span class="disclaimer">交易涉及風險，過往績效不代表未來表現，本網站內容不構成投資建議。</span>
+  </div>
+</footer>
+
+<script src="wallet.js" defer></script>
+</body>
+</html>

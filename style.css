@@ -227,77 +227,86 @@ nav a:hover { color: var(--gold-400); }
 }
 
 /* Payment */
+.nav-active {
+  color: var(--gold-400) !important;
+}
+
+.payment-page {
+  padding-top: 140px;
+  min-height: calc(100vh - 90px);
+}
+
 .usdt-badge {
   display: inline-block;
-  margin-top: 18px;
-  padding: 8px 18px;
+  margin-top: 22px;
+  padding: 12px 26px;
   border-radius: 999px;
   background: rgba(212, 175, 55, 0.12);
   border: 1px solid var(--border-soft);
   color: var(--gold-400);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   letter-spacing: 0.02em;
 }
 
 .payment-card {
-  margin-top: 36px;
-  max-width: 520px;
+  margin-top: 44px;
+  max-width: 680px;
   background: var(--navy-900);
   border: 1px solid var(--border-soft);
-  border-radius: 8px;
-  padding: 28px 26px;
+  border-radius: 12px;
+  padding: 44px 42px;
 }
 
 .payment-label {
   display: block;
   color: var(--text-muted);
-  font-size: 0.85rem;
-  margin-bottom: 8px;
+  font-size: 1.05rem;
+  margin-bottom: 12px;
 }
 
 .payment-select {
   width: 100%;
-  padding: 12px 14px;
-  border-radius: 4px;
+  padding: 18px 20px;
+  border-radius: 6px;
   border: 1px solid var(--border-soft);
   background: var(--navy-800);
   color: var(--text-primary);
   font-family: inherit;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
 .payment-address-row {
-  margin-top: 24px;
+  margin-top: 36px;
 }
 
 .payment-address-box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
   background: var(--navy-800);
   border: 1px solid var(--border-soft);
-  border-radius: 4px;
-  padding: 12px 14px;
+  border-radius: 6px;
+  padding: 20px 22px;
 }
 
 .payment-address {
   flex: 1;
   font-family: 'Consolas', monospace;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   color: var(--gold-400);
   word-break: break-all;
 }
 
 .btn-copy {
   flex-shrink: 0;
-  padding: 8px 16px;
-  border-radius: 4px;
+  padding: 14px 26px;
+  border-radius: 6px;
   border: 1px solid var(--border-soft);
   background: var(--navy-700);
   color: var(--text-primary);
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s;
@@ -309,17 +318,28 @@ nav a:hover { color: var(--gold-400); }
 }
 
 .payment-copy-status {
-  margin-top: 8px;
-  min-height: 1.2em;
+  margin-top: 12px;
+  min-height: 1.4em;
   color: var(--gold-400);
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 .payment-warning {
-  margin-top: 20px;
+  margin-top: 26px;
   color: #e0a05a;
-  font-size: 0.85rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.payment-back {
+  display: inline-block;
+  margin-top: 32px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.payment-back:hover {
+  color: var(--gold-400);
 }
 
 .download-cta {
@@ -362,13 +382,6 @@ nav a:hover { color: var(--gold-400); }
 .value-card p, .service-card p {
   color: var(--text-muted);
   font-size: 0.95rem;
-}
-
-.service-icon {
-  color: var(--gold-500);
-  font-weight: 900;
-  font-size: 1.6rem;
-  margin-bottom: 14px;
 }
 
 /* Contact */
