@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-07-04",
+  "items": [
+    {
+      "date": "2026-07-04",
+      "title": "比特幣站上 6.3 萬美元，創逾一個月新高",
+      "summary": "在淡季交易量偏低的情況下，比特幣一舉收復6月底跌勢，寫下逾一個月來新高；XRP 24小時漲幅達5%，領漲主流幣。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "穩定幣基礎設施升溫：Open USD 上線，集結140多家夥伴",
+      "summary": "BlackRock、Visa、Shopify、DBS、Ripple 等140多家機構共同參與 Open USD，顯示穩定幣正成為金融各層都想搶進的共享基礎設施。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "BNB Chain 攜手 AWS 推出 BNB Agent Studio",
+      "summary": "開發者只要輸入一個 prompt，約15分鐘內就能部署具備自有錢包的鏈上自主 AI 代理人，加速 AI 與區塊鏈整合。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/"
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Trace Finance 完成 3200 萬美元 A 輪融資",
+      "summary": "由 CoinFund 領投，這家源自巴西的公司正打造面向拉丁美洲的銀行級穩定幣支付軌道。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "預測市場平台 Polymarket 遭第三方供應商入侵",
+      "summary": "攻擊者在網站前端植入惡意腳本，Polymarket 已對外說明並承諾全額退款受影響用戶，凸顯第三方供應鏈風險。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "美國《CLARITY Act》加密市場結構法案訂出時程",
+      "summary": "法案能否如期推進，關鍵在於七位參議院民主黨人的態度，加密市場結構立法仍存在不確定性。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/"
+    }
+  ]
+}

@@ -159,9 +159,71 @@ nav a:hover { color: var(--gold-400); }
 .btn-outline:hover { border-color: var(--gold-500); color: var(--gold-400); }
 
 /* About */
-.about, .services, .download, .payment, .contact {
+.about, .services, .download, .news, .payment, .contact {
   padding: 90px 0;
   border-bottom: 1px solid var(--border-soft);
+}
+
+/* News */
+.news-updated {
+  margin-top: 8px;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.news-loading {
+  color: var(--text-muted);
+  grid-column: 1 / -1;
+}
+
+.news-card {
+  background: var(--navy-900);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-date {
+  color: var(--gold-500);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.news-title {
+  margin-top: 8px;
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.news-summary {
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.7;
+  flex: 1;
+}
+
+.news-source {
+  margin-top: 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold-400);
+}
+
+.news-source:hover {
+  color: var(--gold-500);
 }
 
 /* Payment */
