@@ -159,9 +159,92 @@ nav a:hover { color: var(--gold-400); }
 .btn-outline:hover { border-color: var(--gold-500); color: var(--gold-400); }
 
 /* About */
-.about, .services, .download, .contact {
+.about, .services, .download, .payment, .contact {
   padding: 90px 0;
   border-bottom: 1px solid var(--border-soft);
+}
+
+/* Payment */
+.payment-card {
+  margin-top: 36px;
+  max-width: 520px;
+  background: var(--navy-900);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  padding: 28px 26px;
+}
+
+.payment-label {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.payment-select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 4px;
+  border: 1px solid var(--border-soft);
+  background: var(--navy-800);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.payment-address-row {
+  margin-top: 24px;
+}
+
+.payment-address-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--navy-800);
+  border: 1px solid var(--border-soft);
+  border-radius: 4px;
+  padding: 12px 14px;
+}
+
+.payment-address {
+  flex: 1;
+  font-family: 'Consolas', monospace;
+  font-size: 0.85rem;
+  color: var(--gold-400);
+  word-break: break-all;
+}
+
+.btn-copy {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid var(--border-soft);
+  background: var(--navy-700);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-copy:hover {
+  border-color: var(--gold-500);
+  color: var(--gold-400);
+}
+
+.payment-copy-status {
+  margin-top: 8px;
+  min-height: 1.2em;
+  color: var(--gold-400);
+  font-size: 0.85rem;
+}
+
+.payment-warning {
+  margin-top: 20px;
+  color: #e0a05a;
+  font-size: 0.85rem;
+  line-height: 1.6;
 }
 
 .download-cta {

@@ -13,7 +13,7 @@
 <!-- 安全性設定：GitHub Pages 不能自訂 HTTP 標頭，這裡用 meta 版本的 CSP 盡量收緊 -->
 <meta http-equiv="Content-Security-Policy" content="
   default-src 'self';
-  script-src 'none';
+  script-src 'self';
   style-src 'self' https://fonts.googleapis.com;
   font-src https://fonts.gstatic.com;
   img-src 'self' data:;
@@ -66,6 +66,7 @@
       <a href="#about">關於TRL</a>
       <a href="#services">服務項目</a>
       <a href="#download">下載TRL</a>
+      <a href="#payment">付款方式</a>
       <a href="#contact">聯絡我們</a>
     </nav>
   </div>
@@ -152,6 +153,34 @@
   </div>
 </section>
 
+<section id="payment" class="payment">
+  <div class="container">
+    <p class="eyebrow">付款方式</p>
+    <h2>選擇付款網路</h2>
+    <p class="section-lead">請選擇你要使用的轉帳網路，切換後會顯示對應的收款地址。</p>
+
+    <div class="payment-card">
+      <label for="network-select" class="payment-label">收款網路 Network</label>
+      <select id="network-select" class="payment-select">
+        <option value="bsc">BSC（BEP-20）</option>
+        <option value="erc20">ERC-20（Ethereum）</option>
+        <option value="trc20">TRC-20（Tron）</option>
+      </select>
+
+      <div class="payment-address-row">
+        <span class="payment-label">收款地址 USDT</span>
+        <div class="payment-address-box">
+          <span id="wallet-address" class="payment-address"></span>
+          <button id="copy-address-btn" class="btn-copy" type="button">複製</button>
+        </div>
+        <p id="copy-status" class="payment-copy-status"></p>
+      </div>
+
+      <p class="payment-warning">⚠ 請務必確認選擇的網路與轉帳時使用的網路一致，網路選錯可能導致資產永久遺失，恕不負責。</p>
+    </div>
+  </div>
+</section>
+
 <section id="contact" class="contact">
   <div class="container">
     <p class="eyebrow">聯絡我們</p>
@@ -167,5 +196,6 @@
   </div>
 </footer>
 
+<script src="wallet.js" defer></script>
 </body>
 </html>
