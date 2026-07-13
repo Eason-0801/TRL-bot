@@ -16,12 +16,19 @@
     },
   };
 
-  var select    = document.getElementById("network-select");
-  var addressEl = document.getElementById("wallet-address");
-  var labelEl   = document.getElementById("address-label");
-  var copyBtn   = document.getElementById("copy-address-btn");
-  var statusEl  = document.getElementById("copy-status");
-  var tokenBtns = document.querySelectorAll(".token-btn");
+  var EXPLORERS = {
+    bsc:   "https://bscscan.com/",
+    erc20: "https://etherscan.io/",
+    trc20: "https://tronscan.org/#/",
+  };
+
+  var select       = document.getElementById("network-select");
+  var addressEl    = document.getElementById("wallet-address");
+  var labelEl      = document.getElementById("address-label");
+  var copyBtn      = document.getElementById("copy-address-btn");
+  var statusEl     = document.getElementById("copy-status");
+  var tokenBtns    = document.querySelectorAll(".token-btn");
+  var explorerLink = document.getElementById("explorer-link");
 
   var currentToken = "usdt";
 
@@ -29,6 +36,7 @@
     var entry = ADDRESSES[select.value] || {};
     addressEl.textContent = entry[currentToken] || "";
     if (labelEl) labelEl.textContent = "收款地址 " + currentToken.toUpperCase();
+    if (explorerLink) explorerLink.href = EXPLORERS[select.value] || "#";
     statusEl.textContent = "";
   }
 
