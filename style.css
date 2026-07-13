@@ -394,6 +394,21 @@ nav a:hover { color: var(--gold-400); }
   padding: 28px 24px;
 }
 
+.value-card-highlight {
+  background: linear-gradient(160deg, rgba(212, 175, 55, 0.14), var(--navy-900));
+  border: 1px solid var(--gold-500);
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.15), 0 8px 24px rgba(212, 175, 55, 0.08);
+  position: relative;
+}
+
+.value-card-highlight h3 {
+  color: var(--gold-400);
+}
+
+.value-card-highlight h3::before {
+  content: "🔒 ";
+}
+
 .value-card p, .service-card p {
   color: var(--text-muted);
   font-size: 0.95rem;
