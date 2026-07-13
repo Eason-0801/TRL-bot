@@ -360,6 +360,41 @@ nav a:hover { color: var(--gold-400); }
   cursor: pointer;
 }
 
+.payment-token-row {
+  margin-top: 28px;
+}
+
+.token-toggle-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.token-btn {
+  flex: 1;
+  padding: 14px 0;
+  border-radius: 6px;
+  border: 1px solid var(--border-soft);
+  background: var(--navy-800);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.token-btn:hover {
+  border-color: var(--gold-500);
+  color: var(--gold-400);
+}
+
+.token-btn.active {
+  background: rgba(212, 175, 55, 0.12);
+  border-color: var(--gold-500);
+  color: var(--gold-400);
+}
+
 .payment-address-row {
   margin-top: 36px;
 }

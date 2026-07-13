@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>付款方式 | TRL量化交易機器人 The Rich Life Bot</title>
-<meta name="description" content="TRL量化交易機器人付款頁面，支援 BSC（BEP-20）、ERC-20、TRC-20 網路，僅接受 USDT。">
+<meta name="description" content="TRL量化交易機器人付款頁面，支援 BSC（BEP-20）、ERC-20、TRC-20 網路，接受 USDT 與 USDC。">
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://eason-0801.github.io/TRL-bot/payment.html">
 
@@ -49,7 +49,7 @@
     <p class="eyebrow">付款方式</p>
     <h2>選擇付款網路</h2>
     <p class="section-lead">請選擇你要使用的轉帳網路，切換後會顯示對應的收款地址。</p>
-    <span class="usdt-badge">💰　僅收 USDT　Only USDT Accepted</span>
+    <span class="usdt-badge">💰　僅收 USDT／USDC　USDT &amp; USDC Only</span>
 
     <div class="payment-card">
       <label for="network-select" class="payment-label">收款網路 Network</label>
@@ -59,8 +59,16 @@
         <option value="trc20">TRC-20（Tron）</option>
       </select>
 
+      <div class="payment-token-row">
+        <span class="payment-label">收款幣別 Token</span>
+        <div class="token-toggle-group">
+          <button type="button" class="token-btn active" data-token="usdt">USDT</button>
+          <button type="button" class="token-btn" data-token="usdc">USDC</button>
+        </div>
+      </div>
+
       <div class="payment-address-row">
-        <span class="payment-label">收款地址 USDT</span>
+        <span class="payment-label" id="address-label">收款地址 USDT</span>
         <div class="payment-address-box">
           <span id="wallet-address" class="payment-address"></span>
           <button id="copy-address-btn" class="btn-copy" type="button">複製</button>
@@ -68,7 +76,7 @@
         <p id="copy-status" class="payment-copy-status"></p>
       </div>
 
-      <p class="payment-warning">⚠ 本收款地址僅接受 USDT，請勿轉入其他幣種（如 BTC、ETH、BNB 等），誤轉其他幣種恕無法尋回。</p>
+      <p class="payment-warning">⚠ 本收款地址僅接受 USDT／USDC，請勿轉入其他幣種（如 BTC、ETH、BNB 等），誤轉其他幣種恕無法尋回。</p>
       <p class="payment-warning">⚠ 請務必確認選擇的網路與轉帳時使用的網路一致，網路選錯可能導致資產永久遺失，恕不負責。</p>
       <p class="payment-warning">✅ 付款完成請聯絡客服並提供轉帳紀錄 TxID，以利加速核帳。</p>
     </div>
