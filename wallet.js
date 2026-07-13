@@ -1,7 +1,6 @@
 (function () {
   "use strict";
 
-  // TODO: TRC-20 還是占位字串，之後有真實地址記得替換
   var ADDRESSES = {
     bsc: {
       usdt: "0x754a3D1796EF3B1f991cFb1FB4B7140F0F0a49Ce",
@@ -12,8 +11,8 @@
       usdc: "0x754a3D1796EF3B1f991cFb1FB4B7140F0F0a49Ce",
     },
     trc20: {
-      usdt: "TPLACEHOLDER0000000000000000000000",
-      usdc: "TPLACEHOLDER0000000000000000000000",
+      usdt: "TLCxxnsomS2hZAt9aVKApwMC7XLKdtJeBm",
+      usdc: "TLCxxnsomS2hZAt9aVKApwMC7XLKdtJeBm",
     },
   };
 
