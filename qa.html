@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>常見問答 Q&amp;A | TRL量化交易機器人 The Rich Life Bot</title>
+<meta name="description" content="TRL量化交易機器人常見問答：資金安全、固定IP、支援交易所、授權金鑰、付款方式等說明。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://eason-0801.github.io/TRL-bot/qa.html">
+
+<!-- 安全性設定：GitHub Pages 不能自訂 HTTP 標頭，這裡用 meta 版本的 CSP 盡量收緊 -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self';
+  style-src 'self' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  img-src 'self' data:;
+  connect-src 'self';
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self';
+  upgrade-insecure-requests;
+">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <nav>
+      <a href="index.html#about">關於TRL</a>
+      <a href="index.html#download">下載TRL</a>
+      <a href="index.html#news">Web3新聞</a>
+      <a href="payment.html">付款方式</a>
+      <a href="qa.html" class="nav-active">Q&amp;A</a>
+      <a href="index.html#contact">聯絡我們</a>
+    </nav>
+  </div>
+</header>
+
+<section class="qa-page">
+  <div class="container">
+    <p class="eyebrow">常見問答</p>
+    <h2>Q&amp;A</h2>
+    <p class="section-lead">點擊問題展開答案。</p>
+
+    <div class="qa-list">
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>客戶的資金安全嗎？TRL 會保管我的資金嗎？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>客戶資金在自己帳戶，TRL不代為保管，可隨時決定進場或出場，實現資金安全無虞。</p>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>使用 TRL 需要固定 IP 嗎？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>客戶需自己使用固定IP，或使用浮動IP但必須每隔3-5天把新的浮動IP增加到交易所的API白名單，以確保機器人能持續連線下單。</p>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>機器人需要一直開著電腦嗎？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>客戶電腦需24小時開機，機器人才會持續運作交易。</p>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>購買授權金鑰可以用哪些幣別付款？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>目前只接受 USDT 或 USDC 付款。</p>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>TRL 支援哪些交易所？API 金鑰要怎麼設定？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>支援 Binance、OKX、Bybit、Bitget；其中 OKX 和 Bitget 除了 API Key/Secret 外，還需要額外輸入 Passphrase。</p>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>授權金鑰到期後，機器人會怎樣？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>機器人會自動安全停止（不會強制賣出持倉、不會影響現有部位），只是暫停監控與下新單，重新輸入有效金鑰即可接續運作。</p>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>電腦重開機或斷電後，機器人會自動恢復運作嗎？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>不會自動開機，需要人工重新啟動電腦並開啟程式；建議設定開機自動啟動，若擔心斷電建議搭配不斷電系統（UPS）。</p>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>TRL 保證獲利嗎？虧損誰負責？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>機器人僅依照預設紀律執行策略，不保證獲利。交易涉及風險，過往績效不代表未來表現，本服務不構成投資建議。</p>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-question" type="button">
+          <span>授權金鑰不見或忘記了怎麼辦？</span>
+          <span class="qa-toggle-icon">+</span>
+        </button>
+        <div class="qa-answer">
+          <p>請聯繫客服並提供付款時的轉帳紀錄（TxID），協助核對身分後可重新核發金鑰。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; 2026 TRL量化交易機器人 The Rich Life Bot. All rights reserved.</span>
+    <span class="disclaimer">交易涉及風險，過往績效不代表未來表現，本網站內容不構成投資建議。</span>
+  </div>
+</footer>
+
+<script src="qa.js" defer></script>
+</body>
+</html>

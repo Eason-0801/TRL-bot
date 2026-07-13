@@ -251,6 +251,74 @@ nav a:hover { color: var(--gold-400); }
   min-height: calc(100vh - 90px);
 }
 
+/* Q&A */
+.qa-page {
+  padding-top: 140px;
+  padding-bottom: 90px;
+  min-height: calc(100vh - 90px);
+}
+
+.qa-list {
+  margin-top: 40px;
+  max-width: 780px;
+  border-top: 1px solid var(--border-soft);
+}
+
+.qa-item {
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.qa-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: left;
+  padding: 24px 4px;
+  cursor: pointer;
+}
+
+.qa-question:hover {
+  color: var(--gold-400);
+}
+
+.qa-toggle-icon {
+  flex-shrink: 0;
+  color: var(--gold-500);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform 0.25s ease;
+}
+
+.qa-item.open .qa-toggle-icon {
+  transform: rotate(45deg);
+}
+
+.qa-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.qa-answer p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  padding: 0 4px 24px;
+}
+
+.qa-item.open .qa-answer {
+  max-height: 400px;
+}
+
 .usdt-badge {
   display: inline-block;
   margin-top: 22px;
