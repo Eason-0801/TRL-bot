@@ -251,6 +251,72 @@ nav a:hover { color: var(--gold-400); }
   min-height: calc(100vh - 90px);
 }
 
+.payment-subtitle {
+  margin-top: 56px;
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+  max-width: 680px;
+}
+
+.plan-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--navy-900);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  padding: 28px 26px;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  transition: all 0.2s;
+}
+
+.plan-card:hover {
+  border-color: var(--gold-500);
+}
+
+.plan-card.selected {
+  background: linear-gradient(160deg, rgba(212, 175, 55, 0.14), var(--navy-900));
+  border-color: var(--gold-500);
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.15), 0 8px 24px rgba(212, 175, 55, 0.08);
+}
+
+.plan-card h3 {
+  position: relative;
+}
+
+.plan-card.selected h3 {
+  color: var(--gold-400);
+}
+
+.plan-card.selected h3::after {
+  content: "✓ 已選擇";
+  float: right;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gold-400);
+}
+
+.plan-price {
+  margin-top: 6px;
+  color: var(--gold-500);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.plan-desc {
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
 /* Q&A */
 .qa-page {
   padding-top: 140px;
@@ -571,6 +637,7 @@ nav a:hover { color: var(--gold-400); }
   .about, .services, .contact { padding: 60px 0; }
   .service-grid { grid-template-columns: 1fr; }
   .value-grid { grid-template-columns: 1fr; }
+  .plan-grid { grid-template-columns: 1fr; }
   .about-download-grid { grid-template-columns: 1fr; gap: 40px; }
   .download-col {
     border-left: none;

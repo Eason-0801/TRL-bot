@@ -90,4 +90,13 @@
   });
 
   render();
+
+  // 方案選擇卡片（一年版／終身版）— 純視覺選取，方便客戶跟客服確認要買哪個方案
+  var planCards = document.querySelectorAll(".plan-card");
+  planCards.forEach(function (card) {
+    card.addEventListener("click", function () {
+      planCards.forEach(function (c) { c.classList.remove("selected"); });
+      card.classList.add("selected");
+    });
+  });
 })();
