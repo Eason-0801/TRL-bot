@@ -442,6 +442,11 @@ nav a:hover { color: var(--gold-400); }
   font-size: 1.2rem;
 }
 
+.product-media-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
 .feature-list {
   margin-top: 20px;
   display: flex;
