@@ -541,6 +541,10 @@ nav a:hover { color: var(--gold-400); }
 /* Contact */
 .contact { border-bottom: none; }
 
+.contact-btn {
+  margin-top: 28px;
+}
+
 /* Footer */
 .site-footer {
   padding: 32px 0;
