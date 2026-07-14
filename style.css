@@ -257,10 +257,10 @@ nav a:hover { color: var(--gold-400); }
 
 .plan-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 24px;
   margin-top: 36px;
-  max-width: 680px;
+  max-width: 900px;
 }
 
 .plan-card {
