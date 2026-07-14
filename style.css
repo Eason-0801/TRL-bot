@@ -515,14 +515,22 @@ nav a:hover { color: var(--gold-400); }
   border: 1px solid var(--gold-500);
   box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.15), 0 8px 24px rgba(212, 175, 55, 0.08);
   position: relative;
+  padding: 44px 40px;
 }
 
 .value-card-highlight h3 {
   color: var(--gold-400);
+  font-size: 1.7rem;
+  margin-bottom: 14px;
 }
 
 .value-card-highlight h3::before {
   content: "🔒 ";
+}
+
+.value-card.value-card-highlight p {
+  font-size: 1.1rem;
+  line-height: 1.8;
 }
 
 .value-card p, .service-card p {
