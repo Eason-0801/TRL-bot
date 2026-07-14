@@ -495,7 +495,7 @@ nav a:hover { color: var(--gold-400); }
 }
 
 .value-grid {
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .service-grid {
@@ -510,6 +510,7 @@ nav a:hover { color: var(--gold-400); }
 }
 
 .value-card-highlight {
+  grid-column: 1 / -1;
   background: linear-gradient(160deg, rgba(212, 175, 55, 0.14), var(--navy-900));
   border: 1px solid var(--gold-500);
   box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.15), 0 8px 24px rgba(212, 175, 55, 0.08);
@@ -548,11 +549,16 @@ nav a:hover { color: var(--gold-400); }
 
 .disclaimer { color: rgba(159, 177, 194, 0.6); }
 
+@media (max-width: 900px) {
+  .value-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 @media (max-width: 640px) {
   nav { gap: 16px; }
   .hero { padding: 90px 0 70px; }
   .about, .services, .contact { padding: 60px 0; }
   .service-grid { grid-template-columns: 1fr; }
+  .value-grid { grid-template-columns: 1fr; }
   .about-download-grid { grid-template-columns: 1fr; gap: 40px; }
   .download-col {
     border-left: none;
