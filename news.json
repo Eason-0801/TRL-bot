@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-07-04",
+  "updated_at": "2026-07-14",
   "items": [
     {
-      "date": "2026-07-04",
-      "title": "比特幣站上 6.3 萬美元，創逾一個月新高",
-      "summary": "在淡季交易量偏低的情況下，比特幣一舉收復6月底跌勢，寫下逾一個月來新高；XRP 24小時漲幅達5%，領漲主流幣。",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/"
-    },
-    {
-      "date": "2026-07-03",
-      "title": "穩定幣基礎設施升溫：Open USD 上線，集結140多家夥伴",
-      "summary": "BlackRock、Visa、Shopify、DBS、Ripple 等140多家機構共同參與 Open USD，顯示穩定幣正成為金融各層都想搶進的共享基礎設施。",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/"
-    },
-    {
-      "date": "2026-07-03",
-      "title": "BNB Chain 攜手 AWS 推出 BNB Agent Studio",
-      "summary": "開發者只要輸入一個 prompt，約15分鐘內就能部署具備自有錢包的鏈上自主 AI 代理人，加速 AI 與區塊鏈整合。",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/"
-    },
-    {
-      "date": "2026-07-02",
-      "title": "Trace Finance 完成 3200 萬美元 A 輪融資",
-      "summary": "由 CoinFund 領投，這家源自巴西的公司正打造面向拉丁美洲的銀行級穩定幣支付軌道。",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/"
+      "date": "2026-07-13",
+      "title": "WebX 2026 於東京開幕，聚焦日本 Web3 與傳統金融融合",
+      "summary": "為期兩天的 WebX 2026 於東京開幕，預計吸引逾1.5萬名參與者，聚焦日本新政策下 Web3 與傳統金融（TradFi）的深度整合。",
+      "source": "動區動趨 BlockTempo",
+      "url": "https://www.blocktempo.com/webx-2026-tokyo-japan-web3-tradfi-integration/"
     },
     {
       "date": "2026-07-01",
-      "title": "預測市場平台 Polymarket 遭第三方供應商入侵",
-      "summary": "攻擊者在網站前端植入惡意腳本，Polymarket 已對外說明並承諾全額退款受影響用戶，凸顯第三方供應鏈風險。",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/"
+      "title": "歐盟 MiCA 過渡期正式結束，全面強制執行",
+      "summary": "歐盟《加密資產市場法規》過渡期於7月1日結束，所有面向歐盟用戶的加密平台須持有正式CASP牌照，成為全球最嚴格的區域監管體系之一。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh-hant/articles/019f17b6-3d67-7289-a4a4-4bfe8aef974c"
     },
     {
       "date": "2026-06-30",
-      "title": "美國《CLARITY Act》加密市場結構法案訂出時程",
-      "summary": "法案能否如期推進，關鍵在於七位參議院民主黨人的態度，加密市場結構立法仍存在不確定性。",
+      "title": "140餘家龍頭企業聯合推出合規穩定幣 Open USD",
+      "summary": "Visa、萬事達卡、貝萊德、Google、Stripe、Coinbase、Ripple 等140多家機構共同發布合規聯盟型穩定幣 Open USD，顯示穩定幣正成為金融業共搶的基礎設施。",
+      "source": "文學城財經新聞",
+      "url": "https://bbs.wenxuecity.com/financenews/33787.html"
+    },
+    {
+      "date": "2026-07-04",
+      "title": "白帽駭客揭露 Aptos 漏洞，曾威脅逾700億美元資產",
+      "summary": "資安公司 Hexens 僅用約3000美元伺服器成本，就找出一個可能危及Aptos鏈上700億美元資產（含穩定幣與跨鏈橋）的系統性漏洞，通報後已緊急修補。",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/"
+      "url": "https://www.coindesk.com/tech/2026/07/04/how-ethical-hackers-with-just-a-usd3-000-server-found-a-flaw-that-could-ve-put-usd70-billion-in-crypto-at-risk"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "「Ill Bloom」錢包漏洞遭利用，損失逾500萬美元",
+      "summary": "資安公司 Coinspect 揭露部分錢包軟體因助記詞隨機性不足產生的「Ill Bloom」漏洞，已有超過430個錢包遭駭客集中掃蕩提領，確認損失突破500萬美元。",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "ETF資金流入與Fed信號帶動，加密市場7月回暖",
+      "summary": "受惠於ETF資金持續流入與聯準會政策信號轉向，加密貨幣市場在7月初出現反彈，市場情緒較6月底明顯回穩。",
+      "source": "KuCoin",
+      "url": "https://www.kucoin.com/news/flash/crypto-market-rebounds-amid-etf-inflows-and-fed-signals-in-july-2026"
     }
   ]
 }
