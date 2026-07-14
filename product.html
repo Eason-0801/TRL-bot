@@ -119,14 +119,41 @@
       </div>
 
       <div class="product-col product-media-col">
-        <div class="product-media-placeholder">
-          <span>📷</span>
-          <p>產品畫面即將更新</p>
+        <div class="product-gallery">
+          <button type="button" class="gallery-thumb" data-full="assets/screenshots/main-dashboard.jpg">
+            <img src="assets/screenshots/main-dashboard.jpg" alt="TRL Bot 主監控畫面">
+            <span class="gallery-caption">主監控</span>
+          </button>
+          <button type="button" class="gallery-thumb" data-full="assets/screenshots/profit-stats.jpg">
+            <img src="assets/screenshots/profit-stats.jpg" alt="TRL Bot 收益統計畫面">
+            <span class="gallery-caption">收益統計</span>
+          </button>
+          <button type="button" class="gallery-thumb" data-full="assets/screenshots/trade-records.jpg">
+            <img src="assets/screenshots/trade-records.jpg" alt="TRL Bot 買賣記錄畫面">
+            <span class="gallery-caption">買賣記錄</span>
+          </button>
+          <button type="button" class="gallery-thumb" data-full="assets/screenshots/asset-status.jpg">
+            <img src="assets/screenshots/asset-status.jpg" alt="TRL Bot 資產狀態畫面">
+            <span class="gallery-caption">資產狀態</span>
+          </button>
+          <button type="button" class="gallery-thumb" data-full="assets/screenshots/operation-log.jpg">
+            <img src="assets/screenshots/operation-log.jpg" alt="TRL Bot 操作記錄畫面">
+            <span class="gallery-caption">操作記錄</span>
+          </button>
+          <button type="button" class="gallery-thumb" data-full="assets/screenshots/strategy-settings.jpg">
+            <img src="assets/screenshots/strategy-settings.jpg" alt="TRL Bot 策略設置畫面">
+            <span class="gallery-caption">策略設置</span>
+          </button>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button type="button" id="lightbox-close" class="lightbox-close" aria-label="關閉">✕</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
 
 <footer class="site-footer">
   <div class="container footer-inner">
@@ -134,6 +161,8 @@
     <span class="disclaimer">交易涉及風險，過往績效不代表未來表現，本網站內容不構成投資建議。</span>
   </div>
 </footer>
+
+<script src="gallery.js" defer></script>
 
 </body>
 </html>
