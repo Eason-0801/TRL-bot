@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-07-14",
+  "updated_at": "2026-07-16",
   "items": [
     {
-      "date": "2026-07-13",
-      "title": "WebX 2026 於東京開幕，聚焦日本 Web3 與傳統金融融合",
-      "summary": "為期兩天的 WebX 2026 於東京開幕，預計吸引逾1.5萬名參與者，聚焦日本新政策下 Web3 與傳統金融（TradFi）的深度整合。",
-      "source": "動區動趨 BlockTempo",
-      "url": "https://www.blocktempo.com/webx-2026-tokyo-japan-web3-tradfi-integration/"
+      "date": "2026-07-16",
+      "title": "Polychain投資項目Cascade遭駭，損失134萬美元",
+      "summary": "Arbitrum借貸協議Cascade的流動性策略金庫遭利用，約134萬美元USDC被盜並跨鏈轉移，凸顯DeFi金庫安全仍是重大風險。",
+      "source": "CryptoTimes",
+      "url": "https://www.cryptotimes.io/2026/07/16/polychain-backed-cascade-hacked-for-1-34m-in-locked-user-funds/"
     },
     {
-      "date": "2026-07-01",
-      "title": "歐盟 MiCA 過渡期正式結束，全面強制執行",
-      "summary": "歐盟《加密資產市場法規》過渡期於7月1日結束，所有面向歐盟用戶的加密平台須持有正式CASP牌照，成為全球最嚴格的區域監管體系之一。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh-hant/articles/019f17b6-3d67-7289-a4a4-4bfe8aef974c"
+      "date": "2026-07-10",
+      "title": "BNB Chain公布AI代理專用新Layer 1，目標時延低於50毫秒",
+      "summary": "新鏈鎖定自動交易的AI代理，目標達每秒10萬筆以上交易與秒級最終確認，測試網預計2026年底上線。",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/373042/bnb-chain-new-layer-1-ai-agents-high-speed-trading-quantum"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "美國SEC研擬「Reg Crypto」規則，Clarity Act新版本可能近期出爐",
+      "summary": "SEC針對加密資產發行、經紀商資本要求與市場結構研擬三項新規，同時參議院版Clarity Act法案也在加速協商中。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "機構加密交易平台EDX Markets完成7600萬美元C輪募資",
+      "summary": "由SBI控股領投，EDX Markets將擴大交易、清算與結算能力，並加速在美國以外市場的布局。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/07/edx-markets-raises-usd76-million-in-funding-round-led-by-sbi-holdings"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "2026上半年加密貨幣駭客損失近10億美元，第二季創史上最多攻擊紀錄",
+      "summary": "TRM Labs報告指出，今年上半年駭客攻擊事件數創歷史新高，但受害總損失金額因大型單一事件減少而略低於前一年同期。",
+      "source": "TRM Labs",
+      "url": "https://www.trmlabs.com/resources/blog/h1-2026-crypto-hacks-reach-record-high-as-losses-fall-below-usd-1-billion"
     },
     {
       "date": "2026-06-30",
-      "title": "140餘家龍頭企業聯合推出合規穩定幣 Open USD",
-      "summary": "Visa、萬事達卡、貝萊德、Google、Stripe、Coinbase、Ripple 等140多家機構共同發布合規聯盟型穩定幣 Open USD，顯示穩定幣正成為金融業共搶的基礎設施。",
-      "source": "文學城財經新聞",
-      "url": "https://bbs.wenxuecity.com/financenews/33787.html"
-    },
-    {
-      "date": "2026-07-04",
-      "title": "白帽駭客揭露 Aptos 漏洞，曾威脅逾700億美元資產",
-      "summary": "資安公司 Hexens 僅用約3000美元伺服器成本，就找出一個可能危及Aptos鏈上700億美元資產（含穩定幣與跨鏈橋）的系統性漏洞，通報後已緊急修補。",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/07/04/how-ethical-hackers-with-just-a-usd3-000-server-found-a-flaw-that-could-ve-put-usd70-billion-in-crypto-at-risk"
-    },
-    {
-      "date": "2026-07-01",
-      "title": "「Ill Bloom」錢包漏洞遭利用，損失逾500萬美元",
-      "summary": "資安公司 Coinspect 揭露部分錢包軟體因助記詞隨機性不足產生的「Ill Bloom」漏洞，已有超過430個錢包遭駭客集中掃蕩提領，確認損失突破500萬美元。",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "ETF資金流入與Fed信號帶動，加密市場7月回暖",
-      "summary": "受惠於ETF資金持續流入與聯準會政策信號轉向，加密貨幣市場在7月初出現反彈，市場情緒較6月底明顯回穩。",
-      "source": "KuCoin",
-      "url": "https://www.kucoin.com/news/flash/crypto-market-rebounds-amid-etf-inflows-and-fed-signals-in-july-2026"
+      "title": "英國FCA正式發布加密貨幣新規，力拚打造全球樞紐",
+      "summary": "英國金融行為監管局（FCA）敲定加密資產監管框架，交易平台與穩定幣發行商須申請授權，強制執行日訂在2027年10月。",
+      "source": "FCA",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-sets-landmark-crypto-rules-cement-uks-place-global-hub"
     }
   ]
 }
