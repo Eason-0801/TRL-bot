@@ -812,6 +812,11 @@ nav a:hover { color: var(--gold-500); }
   grid-template-columns: repeat(2, 1fr);
 }
 
+.value-card h3 {
+  text-align: center;
+  color: var(--gold-400);
+}
+
 .value-card, .service-card {
   background: var(--navy-900);
   border: 1px solid var(--border-soft);
