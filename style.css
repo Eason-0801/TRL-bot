@@ -678,6 +678,26 @@ nav a:hover { color: var(--gold-400); }
   color: var(--gold-400);
 }
 
+.payment-plan-summary {
+  margin-top: 28px;
+}
+
+.plan-summary-text {
+  background: var(--navy-800);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gold-400);
+}
+
+.plan-summary-text.plan-summary-empty {
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
 .payment-address-row {
   margin-top: 36px;
 }

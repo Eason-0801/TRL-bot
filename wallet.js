@@ -91,12 +91,24 @@
 
   render();
 
-  // 方案選擇卡片（一年版／終身版）— 純視覺選取，方便客戶跟客服確認要買哪個方案
+  // 方案選擇卡片 — 選取後同步顯示方案名稱與應付金額，方便客戶跟客服核對
   var planCards = document.querySelectorAll(".plan-card");
+  var planSummaryEl = document.getElementById("selected-plan-text");
+
+  function updatePlanSummary(card) {
+    if (!planSummaryEl) return;
+    var name = card.querySelector("h3").textContent;
+    var priceEl = card.querySelector(".plan-price-sale");
+    var price = priceEl ? priceEl.textContent : "";
+    planSummaryEl.textContent = "方案：" + name + "　應付金額：" + price;
+    planSummaryEl.classList.remove("plan-summary-empty");
+  }
+
   planCards.forEach(function (card) {
     card.addEventListener("click", function () {
       planCards.forEach(function (c) { c.classList.remove("selected"); });
       card.classList.add("selected");
+      updatePlanSummary(card);
     });
   });
 })();
