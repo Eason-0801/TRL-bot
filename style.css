@@ -824,7 +824,7 @@ nav a:hover { color: var(--gold-500); }
 
 .value-card-highlight h3 {
   color: var(--gold-400);
-  font-size: 1.7rem;
+  font-size: clamp(2rem, 4vw, 3rem);
   margin-bottom: 14px;
 }
 
