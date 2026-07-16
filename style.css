@@ -885,6 +885,13 @@ nav a:hover { color: var(--gold-400); }
 
 .disclaimer { color: rgba(159, 177, 194, 0.6); }
 
+.footer-email a {
+  color: var(--text-muted);
+}
+.footer-email a:hover {
+  color: var(--gold-400);
+}
+
 @media (max-width: 900px) {
   .value-grid { grid-template-columns: repeat(2, 1fr); }
 }
