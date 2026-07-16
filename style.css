@@ -826,6 +826,7 @@ nav a:hover { color: var(--gold-500); }
   color: var(--gold-400);
   font-size: clamp(2rem, 4vw, 3rem);
   margin-bottom: 14px;
+  text-align: center;
 }
 
 .value-card-highlight h3::before {
