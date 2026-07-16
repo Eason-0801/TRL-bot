@@ -853,14 +853,14 @@ nav a:hover { color: var(--gold-400); }
 }
 
 .payment-contact-btns {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  display: inline-grid;
   gap: 12px;
   margin-top: 16px;
 }
 
 .payment-contact-btns .contact-btn {
+  margin-top: 0;
+  margin-left: 0;
   text-align: center;
 }
 
