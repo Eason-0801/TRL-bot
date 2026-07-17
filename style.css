@@ -982,7 +982,12 @@ nav a:hover { color: var(--gold-500); }
 }
 
 @media (max-width: 640px) {
-  nav { gap: 16px; }
+  nav {
+    gap: 10px 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav a { white-space: nowrap; font-size: 0.85rem; }
   .hero { padding: 90px 0 70px; }
   .about, .services, .contact { padding: 60px 0; }
   .service-grid { grid-template-columns: 1fr; }
@@ -1001,5 +1006,10 @@ nav a:hover { color: var(--gold-500); }
     border-top: 1px solid var(--border-soft);
     padding-left: 0;
     padding-top: 32px;
+  }
+  .contact-btn {
+    display: block;
+    width: fit-content;
+    margin-left: 0 !important;
   }
 }
