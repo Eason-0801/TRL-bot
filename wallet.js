@@ -97,7 +97,9 @@
 
   function updatePlanSummary(card) {
     if (!planSummaryEl) return;
-    var name = card.querySelector("h3").textContent;
+    var h3 = card.querySelector("h3");
+    var badge = h3.querySelector(".plan-badge");
+    var name = badge ? h3.firstChild.textContent.trim() : h3.textContent;
     var priceEl = card.querySelector(".plan-price-sale");
     var price = priceEl ? priceEl.textContent : "";
     planSummaryEl.textContent = "方案：" + name + "　應付金額：" + price;
