@@ -844,8 +844,8 @@ nav a:hover { color: var(--gold-500); }
 .download-help-body {
   margin-top: 12px;
   color: var(--text-primary);
-  font-weight: 900;
-  letter-spacing: 0.01em;
+  font-weight: 400;
+  letter-spacing: normal;
   font-size: 0.84rem;
   line-height: 1.7;
 }
