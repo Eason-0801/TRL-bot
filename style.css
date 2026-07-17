@@ -786,6 +786,12 @@ nav a:hover { color: var(--gold-500); }
   margin-top: 32px;
 }
 
+.download-meta {
+  margin-top: 12px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
 .btn-disabled {
   display: inline-block;
   padding: 14px 28px;
