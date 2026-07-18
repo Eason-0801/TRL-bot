@@ -621,6 +621,19 @@ nav a:hover { color: var(--gold-500); }
   max-height: 400px;
 }
 
+.announcement-list {
+  margin-top: 40px;
+  max-width: 780px;
+}
+
+.announcement-empty {
+  padding: 40px 0;
+  color: var(--text-muted);
+  text-align: center;
+  border: 1px dashed var(--border-soft);
+  border-radius: 8px;
+}
+
 .usdt-badge {
   display: inline-block;
   margin-top: 22px;
