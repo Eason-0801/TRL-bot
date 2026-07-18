@@ -654,10 +654,28 @@ nav a:hover { color: var(--gold-500); }
   font-size: 1.4rem;
 }
 
+.announcement-title-link {
+  color: var(--gold-400);
+  transition: color 0.2s;
+}
+.announcement-title-link:hover {
+  color: var(--gold-500);
+}
+
 .announcement-lead {
   color: var(--text-muted);
   margin-top: 6px;
   margin-bottom: 18px;
+}
+
+.announcement-more {
+  display: inline-block;
+  color: var(--gold-400);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.announcement-more:hover {
+  color: var(--gold-500);
 }
 
 .announcement-subhead {
