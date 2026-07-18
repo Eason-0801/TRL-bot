@@ -634,6 +634,63 @@ nav a:hover { color: var(--gold-500); }
   border-radius: 8px;
 }
 
+.announcement-card {
+  background: var(--navy-900);
+  border: 1px solid var(--gold-500);
+  border-radius: 10px;
+  padding: 32px 28px;
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.15), 0 8px 24px rgba(212, 175, 55, 0.08);
+}
+
+.announcement-date {
+  color: var(--gold-500);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.announcement-title {
+  margin-top: 8px;
+  font-size: 1.4rem;
+}
+
+.announcement-lead {
+  color: var(--text-muted);
+  margin-top: 6px;
+  margin-bottom: 18px;
+}
+
+.announcement-subhead {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: var(--gold-400);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.announcement-rules {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.announcement-rules li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--text-primary);
+}
+
+.announcement-rules li:last-child {
+  border-bottom: none;
+}
+
+.announcement-note {
+  margin-top: 14px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
 .usdt-badge {
   display: inline-block;
   margin-top: 22px;
