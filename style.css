@@ -675,10 +675,11 @@ nav a:hover { color: var(--gold-500); }
 .announcement-banner {
   display: block;
   width: 100%;
+  max-width: 560px;
   height: auto;
+  margin: 0 auto 20px;
   border-radius: 10px;
   border: 1px solid var(--border-soft);
-  margin-bottom: 20px;
 }
 
 .announcement-more {
