@@ -624,6 +624,9 @@ nav a:hover { color: var(--gold-500); }
 .announcement-list {
   margin-top: 40px;
   max-width: 780px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .announcement-empty {
@@ -667,6 +670,15 @@ nav a:hover { color: var(--gold-500); }
   color: var(--text-muted);
   margin-top: 6px;
   margin-bottom: 18px;
+}
+
+.announcement-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border-soft);
+  margin-bottom: 20px;
 }
 
 .announcement-more {
