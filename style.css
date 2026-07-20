@@ -648,11 +648,11 @@ nav a:hover { color: var(--gold-500); }
 }
 
 a.announcement-card {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 16px;
-  width: fit-content;
-  padding: 14px 22px;
+  width: 100%;
+  padding: 16px 24px;
   cursor: pointer;
   transition: border-color 0.2s, transform 0.2s;
 }
@@ -663,6 +663,13 @@ a.announcement-card:hover {
 a.announcement-card .announcement-title {
   margin-top: 0;
   white-space: nowrap;
+}
+
+.announcement-divider {
+  width: 1px;
+  height: 20px;
+  flex-shrink: 0;
+  background: var(--border-soft);
 }
 
 .announcement-date {
