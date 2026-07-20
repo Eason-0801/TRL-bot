@@ -638,11 +638,21 @@ nav a:hover { color: var(--gold-500); }
 }
 
 .announcement-card {
+  display: block;
   background: var(--navy-900);
   border: 1px solid var(--gold-500);
   border-radius: 10px;
   padding: 32px 28px;
   box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.15), 0 8px 24px rgba(212, 175, 55, 0.08);
+}
+
+a.announcement-card {
+  cursor: pointer;
+  transition: border-color 0.2s, transform 0.2s;
+}
+a.announcement-card:hover {
+  border-color: var(--gold-400);
+  transform: translateY(-2px);
 }
 
 .announcement-date {
@@ -656,14 +666,6 @@ nav a:hover { color: var(--gold-500); }
   margin-top: 8px;
   font-size: 1.4rem;
   color: var(--gold-400);
-}
-
-.announcement-title-link {
-  color: var(--gold-400);
-  transition: color 0.2s;
-}
-.announcement-title-link:hover {
-  color: var(--gold-500);
 }
 
 .announcement-lead {
@@ -681,14 +683,36 @@ nav a:hover { color: var(--gold-500); }
   border: 1px solid var(--border-soft);
 }
 
-.announcement-more {
-  display: inline-block;
-  color: var(--gold-400);
-  font-size: 0.9rem;
-  font-weight: 700;
+.pagination {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 32px;
 }
-.announcement-more:hover {
-  color: var(--gold-500);
+
+.pagination-btn {
+  min-width: 40px;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-soft);
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.pagination-btn:hover {
+  border-color: var(--gold-400);
+  color: var(--gold-400);
+}
+
+.pagination-btn.active {
+  background: var(--gold-500);
+  border-color: var(--gold-500);
+  color: var(--navy-900);
 }
 
 .announcement-subhead {
