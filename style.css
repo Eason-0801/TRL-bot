@@ -626,7 +626,8 @@ nav a:hover { color: var(--gold-500); }
   max-width: 780px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .announcement-empty {
@@ -647,12 +648,21 @@ nav a:hover { color: var(--gold-500); }
 }
 
 a.announcement-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  width: fit-content;
+  padding: 14px 22px;
   cursor: pointer;
   transition: border-color 0.2s, transform 0.2s;
 }
 a.announcement-card:hover {
   border-color: var(--gold-400);
   transform: translateY(-2px);
+}
+a.announcement-card .announcement-title {
+  margin-top: 0;
+  white-space: nowrap;
 }
 
 .announcement-date {
