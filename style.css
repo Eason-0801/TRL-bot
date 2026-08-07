@@ -1083,42 +1083,34 @@ a.announcement-card .announcement-title {
 /* Contact */
 .contact { border-bottom: none; }
 
-.contact-btn {
-  margin-top: 28px;
-}
-
-.contact-btn + .contact-btn {
-  margin-left: 16px;
-}
-
-.contact-btn-grid {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+.contact-icon-row {
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   margin-top: 28px;
 }
 
-.contact-btn-grid .contact-btn {
-  margin-top: 0;
-  margin-left: 0;
-  text-align: center;
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--gold-500);
+  transition: background 0.2s, transform 0.2s;
+  cursor: pointer;
 }
 
-.payment-contact-btns {
-  display: inline-grid;
-  gap: 12px;
-  margin-top: 16px;
+.contact-icon:hover {
+  background: var(--gold-400);
+  transform: translateY(-2px);
 }
 
-.payment-contact-btns .contact-btn {
-  margin-top: 0;
-  margin-left: 0;
-  text-align: center;
-}
-
-.payment-contact-btns .contact-btn {
-  margin-top: 0;
-  margin-left: 0;
+.contact-icon svg {
+  width: 26px;
+  height: 26px;
+  fill: var(--navy-950);
 }
 
 /* Footer */
@@ -1173,13 +1165,5 @@ a.announcement-card .announcement-title {
     border-top: 1px solid var(--border-soft);
     padding-left: 0;
     padding-top: 32px;
-  }
-  .contact-btn {
-    display: block;
-    width: fit-content;
-    margin-left: 0 !important;
-  }
-  .contact-btn-grid {
-    grid-template-columns: 1fr;
   }
 }
