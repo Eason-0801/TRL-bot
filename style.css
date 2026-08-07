@@ -1091,6 +1091,19 @@ a.announcement-card .announcement-title {
   margin-left: 16px;
 }
 
+.contact-btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.contact-btn-grid .contact-btn {
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+}
+
 .payment-contact-btns {
   display: inline-grid;
   gap: 12px;
@@ -1165,5 +1178,8 @@ a.announcement-card .announcement-title {
     display: block;
     width: fit-content;
     margin-left: 0 !important;
+  }
+  .contact-btn-grid {
+    grid-template-columns: 1fr;
   }
 }
