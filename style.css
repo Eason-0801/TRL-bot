@@ -1111,6 +1111,22 @@ a.announcement-card .announcement-title {
   width: 26px;
   height: 26px;
   fill: var(--navy-950);
+  flex-shrink: 0;
+}
+
+.contact-icon-labeled {
+  width: auto;
+  height: 56px;
+  border-radius: 28px;
+  padding: 0 22px 0 16px;
+  gap: 10px;
+}
+
+.contact-icon-label {
+  color: var(--navy-950);
+  font-weight: 700;
+  font-size: 0.95rem;
+  white-space: nowrap;
 }
 
 /* Footer */
