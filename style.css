@@ -803,6 +803,19 @@ a.announcement-card .announcement-title {
   letter-spacing: 0.02em;
 }
 
+.download-trial-callout {
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid var(--gold-500);
+  color: var(--gold-400);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 .payment-card {
   margin-top: 44px;
   max-width: 680px;
