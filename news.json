@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-08-20",
+  "updated_at": "2026-08-23",
   "items": [
     {
+      "date": "2026-08-22",
+      "title": "比特幣、以太幣單週齊漲，現貨ETF合計吸金26億美元創近10個月新高",
+      "summary": "受監管風向轉向正面帶動，以太幣單日一度大漲近19%、比特幣漲5-6%；8月17日至21日這週，比特幣與以太幣現貨ETF合計吸金約26億美元，是2025年10月以來單週最強表現。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "馬斯克旗下X平台傳將用穩定幣支付創作者分潤",
+      "summary": "X平台被爆出正評估以穩定幣作為創作者分潤的支付方式，若成真將是主流社群平台首次大規模採用穩定幣支付，有助推進加密貨幣在日常支付場景的實際應用。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "DeFi協議Term Labs治理機制遭利用，損失850萬美元",
+      "summary": "攻擊者僅用價值2枚以太幣、經Tornado Cash混幣的資金架設攻擊錢包，就成功利用治理漏洞入侵金庫，這是該協議近期第二次發生重大資安事故。",
+      "source": "Coinpedia",
+      "url": "https://coinpedia.org/news/defi-protocol-term-labs-loses-8-5m-in-governance-exploit/amp/"
+    },
+    {
       "date": "2026-08-19",
-      "title": "SEC提出加密資產新規框架，比特幣、以太幣同步走揚",
-      "summary": "SEC公布「Regulation Crypto Assets」草案，新創發行加密資產可望適用最高500萬美元的簡化豁免，或揭露更多資訊後申請最高7500萬美元額度；消息公布後比特幣漲至約6.4萬美元、以太幣漲破1900美元。",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-19-2026-crypto-prices-rise-after-sec-announces-proposed-regulation-161733939.html"
+      "title": "白宮與加密產業領袖及SEC、CFTC主席會面，市場解讀監管風向轉正面",
+      "summary": "白宮週三邀集加密產業龍頭與SEC主席Atkins、CFTC主席Selig等監管高層會談，隔日CFTC再召開專門會議，兩場會議被視為將牽動未來數月美國對數位資產的監管態度。",
+      "source": "Coingabbar",
+      "url": "https://www.coingabbar.com/en/price-prediction/crypto-regulation-news-bitcoin-ethereum-xrp-price-prediction"
     },
     {
       "date": "2026-08-15",
-      "title": "華爾街上半年砸112億美元投入加密新創，強監管業者最受青睞",
-      "summary": "2026上半年加密新創募資幾乎全數流向受監管、有牌照的業者，穩定幣、支付與交易所類別吸金最多，顯示機構資金持續偏好合規路線。",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/15/the-usd11-2-billion-in-2026-funding-that-killed-crypto-s-permissionless-era"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "機構LP配置加密貨幣基金比例兩年翻倍，來到5.1%",
-      "summary": "機構型有限合夥人（LP）投入加密貨幣專屬基金的比例，從2024年的2.3%成長到2026年年中的5.1%，反映傳統資本對這個領域的參與度持續加深。",
+      "title": "Galaxy完成7500萬美元鏈上信貸案，於Avalanche鏈上執行",
+      "summary": "這筆交易包含一筆5000萬美元的機構投資人主導額度，是傳統機構資金測試鏈上信貸機制的最新案例之一。",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-vc-roundup-institutional-funding-onchain-credit-2026"
     },
     {
-      "date": "2026-08-08",
-      "title": "8月上旬14筆加密新創融資進帳逾30億美元，Ripple加碼RWA代幣化基建",
-      "summary": "8月1日至8日間共完成14筆投資交易，總額超過30億美元；其中Ripple Labs出資支持ZILO、Licuido兩家實體資產（RWA）代幣化基礎建設商，納入XRP Ledger機構鏈生態。",
-      "source": "Incrypted",
-      "url": "https://incrypted.com/en/follow-the-money-over-3-billion-in-investments-new-venture-capital-funds-and-a-lull-in-the-corporate-sector/"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "7月加密貨幣駭客損失逾2.42億美元，硬體錢包漏洞單一事件損失最大",
-      "summary": "Coldcard硬體錢包因舊版韌體隨機數產生器缺陷，導致約1.1億美元資產被盜，成為2026年至今第三大駭客事件，單一事件損失金額甚至超越當月所有DeFi協議攻擊總和。",
-      "source": "QuillAudits",
-      "url": "https://medium.com/coinmonks/july-2026-crypto-hacks-242m-lost-as-a-hardware-wallet-bug-outweighed-every-defi-exploit-56ef16f82dc5"
-    },
-    {
-      "date": "2026-07-31",
-      "title": "2026年DeFi協議累計損失已破8.4億美元，跨鏈橋攻擊占大宗",
-      "summary": "今年以來DeFi相關駭客攻擊損失金額持續攀升，橋接跨鏈協議因架構複雜、驗證機制分散，仍是駭客鎖定的主要目標之一。",
-      "source": "Altfins",
-      "url": "https://altfins.com/blog/defi-hacks-2026/"
+      "date": "2026-07-16",
+      "title": "Crypto.com獲Citadel Securities 4億美元策略投資，估值站上200億美元",
+      "summary": "這是Crypto.com成立近十年以來首次獲得機構性資金投資，象徵傳統華爾街大型做市商正式加碼布局加密貨幣交易所領域。",
+      "source": "Blockchain Council",
+      "url": "https://www.blockchain-council.org/news/crypto-com-400-million-funding-institutional-crypto-adoption/"
     }
   ]
 }
