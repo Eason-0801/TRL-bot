@@ -805,7 +805,7 @@ a.announcement-card .announcement-title {
 
 .download-trial-callout {
   display: inline-block;
-  margin: 20px 0;
+  margin: 32px 0 0;
   padding: 14px 24px;
   border-radius: 14px;
   background: rgba(212, 175, 55, 0.12);
