@@ -51,25 +51,30 @@
   <div class="container">
     <p class="eyebrow">活動中心</p>
     <h2>最新公告與活動</h2>
+    <div class="event-tabs" id="event-tabs">
+      <button type="button" class="event-tab active" data-filter="event">最新活動</button>
+      <button type="button" class="event-tab" data-filter="announcement">最新公告</button>
+    </div>
     <p class="section-lead">關注 TRL 最新優惠、活動與重要公告。</p>
 
     <div class="announcement-list" id="announcement-list">
-      <a href="event-tv-chart-button.html" class="announcement-card">
+      <a href="event-tv-chart-button.html" class="announcement-card" data-type="announcement">
         <span class="announcement-date">2026.09.03</span>
         <span class="announcement-divider"></span>
         <h3 class="announcement-title">📈 新增TradingView即時K線按鈕</h3>
       </a>
-      <a href="event-tg-trial.html" class="announcement-card">
+      <a href="event-tg-trial.html" class="announcement-card" data-type="event">
         <span class="announcement-date">2026.07.19</span>
         <span class="announcement-divider"></span>
         <h3 class="announcement-title">🎁 加入TG頻道拿30日試用</h3>
       </a>
-      <a href="event-referral-promo.html" class="announcement-card">
+      <a href="event-referral-promo.html" class="announcement-card" data-type="event">
         <span class="announcement-date">2026.07.18</span>
         <span class="announcement-divider"></span>
         <h3 class="announcement-title">🎉 友情無敵開幕慶</h3>
       </a>
     </div>
+    <p class="announcement-empty" id="announcement-empty" hidden>這個分類目前還沒有內容。</p>
     <div class="pagination" id="pagination"></div>
   </div>
 </section>
