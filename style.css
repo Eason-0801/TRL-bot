@@ -651,7 +651,6 @@ nav a:hover { color: var(--gold-500); }
 .event-tabs {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 10px;
   margin: 20px 0;
 }
